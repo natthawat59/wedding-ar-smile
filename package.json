@@ -1,0 +1,9 @@
+{
+  "name": "wedding-ar-github-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check app.js && node --check mascot.js && node --check share.js",
+    "serve": "python3 -m http.server 5173"
+  }
+}
